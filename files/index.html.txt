@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página teste</title>
+</head>
+<body>
+    <div>
+        <h4 style="font-family: Arial, Helvetica, sans-serif; color:black">Olá, boa noite.</h4>
+        <p>Somos da empresa Dualtech Automações e estamos expandindo a nossa empresa</p>
+        <p>Gostaria de saber se você tem interesse em participar de uma conversa com a gente</p>
+        <p>Fico no aguardo do seu retorno</p>
+        <p>Att,</p>
+        <h5>Dpto RH Dualtech Automações</h5>
+        <h5>Fone (34) 99976-5051</h5>
+        <h5>e-mail: dualtechdigital@gmail.com</h5>
+    </div>
+    <div>
+    </div style="padding:40px 0px">
+         <div style="height: 500px; width: 400px;">
+            <img src="https://img.freepik.com/fotos-premium/cerebro-de-tecnologia-de-inteligencia-artificial_267300-37.jpg">
+            <a target="_blank" href="https://www.instagram.com/dualtechdigital?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">DualTech Digital</a>
+         </div>
+</body>
+</html>
