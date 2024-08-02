@@ -43,4 +43,31 @@ for key, value in dict_anos.items():
     ws['C%s' %i] = value['Receitas']
     i += 1
     
+    chart1 = BarChart()
+    chart1.type = 'col'
+    chart1.style =  12
+    chart1.title = 'Receitas X Despesas por Ano'
+    chart1.y_axis.title = 'R$'
+    chart1.x_axis.title = 'Ano'
+    
+    data = Reference(
+        ws,
+        min_col=2,
+        max_col=3,
+        min_row=1,
+        max_row=i
+    )
+    
+    anos = Reference(
+        ws,
+        min_col=1,
+        min_row=2,
+        max_row=i
+    )
+    
+    chart1.add_data(data, titles_from_data=True)
+    chart1.set_categories(anos)
+    chart1.shape = 4
+    ws.add_chart(chart1, 'A%s' %(i+2))
+    
 wb.save(filename='files/demonstrativo.xlsx')
