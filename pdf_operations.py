@@ -39,3 +39,4 @@ def split_pdf(pdf_path):
 
 # 2 - Dividindo PDF por página
 split_pdf('files/sample.pdf')
+
