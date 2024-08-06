@@ -40,7 +40,7 @@ def convert_img_pdf(image_file):
     # print(my_image)
     img = my_image.convert('RGB')
     # print(os.path.splitext(image_file)[0])
-    filename = f'{os.path.splitext(image_file)[0]}.pdf'
+    filename = f'{os.path.splitext(image_file)[0]}.pdf'bb
     img.save(filename)
 
 
@@ -57,4 +57,3 @@ def convert_img_pdf(image_file):
 
 # 7 - Converte imagem em pdf
 convert_img_pdf('files/img.png')
-
