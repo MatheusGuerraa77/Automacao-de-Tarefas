@@ -8,7 +8,7 @@ import time
 # pyautogui.press('enter')
 # time.sleep(1)
 # pyautogui.hotkey('ctrl', 'shift', 'esc')
-time.sleep(1)
+# time.sleep(1)
 with pyautogui.hold('winleft'):
     pyautogui.press('left')
     
